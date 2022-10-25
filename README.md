@@ -26,8 +26,18 @@
   - Fork repository
   - Setup Node project
   - Install dependencies
-  - 
+  - Ensure Inquirer package is installed
+  - Ensure MySQL2 package is installed
+  - Ensure console.table package is installed
   
 ## Usage
 
-  -
+  - Create database and schema in MySQL GUI using schema.sql 
+  - Insert synthetic data in MySQL GUI using seeds.sql
+  - Open integrated terminal in IDE
+  - Run "npm i init"
+  - Run "npm i inquirer@8.2.4"
+  - Run "npm i mysql2"
+  - Run "npm i console.table"
+  - Run "node index.js"
+  - Answer the prompts in command-line to manage database
