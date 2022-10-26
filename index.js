@@ -5,7 +5,7 @@ require("console.table");
 
 init();
 
-// function to begin application once user launches at command-line
+// Function to begin application once user launches at command-line
 function init() {
     runPrompts();
 }
@@ -88,3 +88,105 @@ function runPrompts() {
     )
 }
 
+// Function to view all employees 
+function viewAllEmployees() {
+    db.allEmployees()
+    .then(([rows]) => {
+        let employees = rows;
+        console.log("\n");
+        console.table(employees);
+    })
+    .then(() => runPrompts());
+}
+
+// Function to view all roles 
+function viewAllRoles() {
+    db.allRoles()
+    .then(([rows]) => {
+        let roles = rows;
+        console.log("\n");
+        console.table(roles);
+    })
+    .then(() => runPrompts());
+}
+
+// Function to view all departments 
+function viewAllDepartments() {
+    db.allDepartments()
+    .then(([rows]) => {
+        let departments = rows;
+        console.log("\n");
+        console.table(departments);
+    })
+    .then(() => runPrompts());
+}
+
+// Function to add a role
+function createRole() {
+    db.allDepartments()
+    .then(([rows]) => {
+        let departments = rows;
+        const departmentChoices = departments.map(({ id, name}) => ({
+            name: name,
+            value: id
+        }));
+    
+        prompt([
+            {
+                name: "title",
+                message: "What is the name of the role?"
+            },
+            {
+                name: "salary",
+                message: "What is the salary rate?"
+            },
+            {
+                type: "list",
+                name: "department_id",
+                message: "Which department does teh role fall under?",
+                choices: departmentChoices
+            }
+        ])
+            .then(role => {
+                db.addRole(role)
+                .then(() => console.log(`Added ${role.title} to the database`))
+                .then(() => runPrompts())
+            })
+    })
+}
+
+// Function to add a department
+function createDepartment() {
+    prompt([
+        {
+            name: "first_name",
+            message: "What's the employee's first name?"
+        },
+        {
+            name: "last_name",
+            message: "What's the employee's last name?'"
+        }
+    ])
+    .then(res => {
+        let name = res;
+        db.addDepartment(name)
+        .then(() => console.log(`Added ${name.name} to the database`))
+        .then(() => runPrompts())
+
+    })
+}
+
+// Function to add an employee
+function createEmployee() {
+    
+}
+
+// Function to update an employee's role
+function updateEmployeeRole() {
+    
+}
+
+// Function to quit the application
+function quit() {
+    
+}
