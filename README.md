@@ -16,10 +16,10 @@
  Developers frequently have to create interfaces that allow non-developers to easily view and interact with information stored in databases. These interfaces are called content management systems (CMS). A user-friendly interface for CMS software grants database accessibility with minimal technical knowledge required to use. This ultimately supports inner and cross-team collaboration. 
 
 ## Screen Capture
-![]()
+![](https://user-images.githubusercontent.com/81927296/198411571-075b82b8-5a3e-4a98-8090-42bffc57ab34.gif)
 
 ## Link to Screen Recording of Application
-[Google Drive Link]()
+[Google Drive Link](https://drive.google.com/file/d/16BWaFbxvG3rtWCjoJ71BIrx94EK8QcVV/view?usp=sharing)
 
 ## Installation
 
@@ -36,7 +36,7 @@
   - Insert synthetic data in MySQL GUI using seeds.sql
   - Open integrated terminal in IDE
   - Run "npm i init"
-  - Run "npm i inquirer@8.2.4"
+  - Run "npm i inquirer"
   - Run "npm i mysql2"
   - Run "npm i console.table"
   - Run "node index.js"
