@@ -262,7 +262,7 @@ function updateEmployeeRole() {
             ])
                 .then(res => {
                     let employeeId = res.employeeId;
-                    db.addRole()
+                    db.allRoles()
                         .then(([rows]) => {
                             let roles = rows;
                             const roleChoices = roles.map(({ id, title}) => ({

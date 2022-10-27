@@ -19,7 +19,7 @@ class employeeDB {
     }
 
     // Method to update the employee's role
-    updateEmployeeRole(employeeID, roleId) {
+    updateEmployeeRole(employeeId, roleId) {
         return this.connection.promise().query(
             "UPDATE employee SET role_id = ? WHERE id = ?",
             [roleId, employeeId]
