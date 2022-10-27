@@ -54,7 +54,7 @@ class employeeDB {
 
     // Method to add a department 
     addDepartment(department) {
-        return this.connection.promise().query("INSERT INTO role SET ?", department);
+        return this.connection.promise().query("INSERT INTO department SET ?", department);
     }
 }
 
