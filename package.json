@@ -1,0 +1,27 @@
+{
+  "name": "employee-tracker",
+  "version": "1.0.0",
+  "description": "- [Overview](#overview)\r   - [Why do content management systems matter?](#why-do-content-management-systems-matter?)\r   - [Screen Capture](#screen-capture)\r   - [Link to Screen Recording of Application](#link-to-screen-recording-of-application)\r   - [Installation](#installation)\r   - [Usage](#usage)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/c1flores/Employee-Tracker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/c1flores/Employee-Tracker/issues"
+  },
+  "homepage": "https://github.com/c1flores/Employee-Tracker#readme",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "dotenv": "^16.0.3",
+    "inquirer": "^8.2.4",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.25.3"
+  }
+}
