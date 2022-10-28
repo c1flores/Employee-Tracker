@@ -25,7 +25,7 @@
 
   - Fork repository
   - Setup Node project
-  - Install dependencies (consult package.json file to require similiar package versions in case of syntax-related errors)
+  - Install dependencies (consult package.json file to require similiar package versions in case of syntax-related errors at runtime)
   - Ensure Inquirer package is installed
   - Ensure MySQL2 package is installed
   - Ensure console.table package is installed
