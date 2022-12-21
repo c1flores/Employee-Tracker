@@ -24,12 +24,14 @@
 ## Installation
 
   1. Fork and clone repository to local machine.
-  2. Run ```npm i``` to install dependencies in local project directory.
+  2. Open integrated terminal in personal IDE.
+  3. Run ```npm i``` to install dependencies in local project directory.
   
 ## Usage
 
   1. Create database and schema in MySQL GUI using schema.sql 
-  2. Insert synthetic data in MySQL GUI using seeds.sql
-  3. Run ```node index.js``` 
-  4. Answer the prompts in command-line to manage database
+  2. Insert synthetic data in MySQL GUI using seeds.sql.
+  3. Open integrated terminal in personal IDE.
+  4. Run ```node index.js```.
+  5. Answer the prompts in command-line to manage database.
   
