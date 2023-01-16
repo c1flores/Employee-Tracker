@@ -4,7 +4,7 @@
   - [Why do content management systems matter?](#why-do-content-management-systems-matter)
   - [Technologies Used](#technologies-used)
   - [Screen Capture](#screen-capture)
-  - [Link to Screen Recording of Application](#link-to-screen-recording-of-application)
+  - [Full Walkthrough Video](#full-walkthrough-video)
   - [Installation](#installation)
   - [Usage](#usage)
   
