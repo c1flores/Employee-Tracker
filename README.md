@@ -1,5 +1,10 @@
-# Table of Contents
 
+<!-- omit in toc -->
+# Employee Tracker
+
+
+<!-- omit in toc -->
+## Table of Contents
   - [Overview](#overview)
   - [What is a Content Management System?](#what-is-a-content-management-system)
   - [Technologies Used](#technologies-used)
@@ -16,7 +21,6 @@
  Developers frequently have to create interfaces that allow non-developers to easily view and interact with information stored in databases. These interfaces are called content management systems (CMS). A user-friendly interface for CMS software grants database accessibility with minimal technical knowledge required to use. This ultimately supports inner and cross-team collaboration. 
  
  ## Technologies Used
-
 <div style="display: inline_block"><br>
   <img height="40" align="center" alt="Chris-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -40,13 +44,11 @@
 [Link](https://drive.google.com/file/d/16BWaFbxvG3rtWCjoJ71BIrx94EK8QcVV/view?usp=sharing)
 
 ## Installation
-
   1. Fork and clone repository to local machine.
   2. Open integrated terminal in personal IDE.
   3. Run ```npm i``` to install dependencies in local project directory.
   
 ## Usage
-
   1. Create database and schema in MySQL GUI using schema.sql 
   2. Insert synthetic data in MySQL GUI using seeds.sql.
   3. Open integrated terminal in personal IDE.
